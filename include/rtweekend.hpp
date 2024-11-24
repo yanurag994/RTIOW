@@ -1,11 +1,9 @@
-#ifndef RTWEEKEND_H
-#define RTWEEKEND_H
+#pragma once
 
 #include <cmath>
 #include <iostream>
 #include <limits>
 #include <memory>
-
 
 // C++ Std Usings
 
@@ -26,8 +24,8 @@ inline double degrees_to_radians(double degrees) {
 
 // Common Headers
 
-#include <color.hpp>
-#include <ray.hpp>
-#include <vec3.hpp>
+#include "color.hpp"
+#include "ray.hpp"
+#include "vec3.hpp"
+#include "interval.hpp"
 
-#endif

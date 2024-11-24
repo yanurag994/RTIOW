@@ -1,5 +1,4 @@
-#ifndef RAY_H
-#define RAY_H
+#pragma once
 
 class ray
 {
@@ -16,4 +15,3 @@ private:
     vec3 dir;
 };
 
-#endif

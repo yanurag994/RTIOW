@@ -1,7 +1,6 @@
-#ifndef COLOR_H
-#define COLOR_H
+#pragma once
 
-#include <vec3.hpp>
+#include "vec3.hpp"
 
 using color = vec3;
 
@@ -19,4 +18,3 @@ void write_color(std::ostream& out, const color& pixel_color) {
     out << rbyte << ' ' << gbyte << ' ' << bbyte << '\n';
 }
 
-#endif
